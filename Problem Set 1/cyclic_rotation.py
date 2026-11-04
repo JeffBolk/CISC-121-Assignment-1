@@ -9,7 +9,7 @@ def cyclic_rotation(a = [], k=0):
 
     # Repeat for number of rotations
     for x in range(k):
-
+        
         # Save last value in arr
         make_first_num = a[len(a) - 1]
 
@@ -31,7 +31,7 @@ for i in range(1, 101):
     myArr.append(random.randrange(100))
 
 # Original array myArr
-print('\n\nOriginal Array:')
+print(f'\n\nOriginal Array:\n{myArr}')
 for i in range(0, len(myArr)):
     print(f'Entry {i+1}: {myArr[i]}')
 
